@@ -1,3 +1,4 @@
+![Logo](logo.jpg)
 Project: Copying C64 Floppy Disks on Linux OPenCBM + XUM1541
 
 ## Project Description
