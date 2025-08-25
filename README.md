@@ -45,15 +45,5 @@ cd OpenCBM
 make
 sudo make install
 
-2. Instalacja Twojego programu
 
-Pobierz i skompiluj Twój program, który współpracuje z OpenCBM. W zależności od tego, jak dostarczasz program, mogą być różne metody instalacji.
-
-Przykładowa instalacja:
-
-git clone https://github.com/TwójRepozytorium/twoj-program.git
-cd twoj-program
-make
-sudo make install
-
-3. Niedługo cała reszta pozdrawiam bofh@retro cdn ...
+Niedługo cała reszta pozdrawiam bofh@retro cdn ...
