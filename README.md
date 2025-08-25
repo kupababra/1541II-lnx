@@ -11,7 +11,8 @@ Według strony oficjalnej OpenCBM ta stacja nie widnieje jakobyż miała funkcjo
 - **Linux** (preferowana dystrybucja: Debian, Gentoo, Slackware)
 - **OpenCBM** - program do komunikacji z komputerami Commodore 64
 - **Mój program** - dodatkowy program współpracujący z OpenCBM, który umożliwia łatwą obsługę stacji dysków 1541 II na systemie Linux
-
+- **Interfrejs XUM 1541** + kabel usb
+  
 ### Wymagane zależności:
 
 - `openCBM` (w wersji kompatybilnej z Twoim systemem)
