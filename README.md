@@ -3,7 +3,8 @@
 ## Opis projektu
 
 Projekt ma na celu umożliwienie uruchomienia stacji dysków 1541 II (kompatybilnej z komputerami Commodore 64) na systemie Linux. 
-Dzięki temu użytkownicy będą mogli odczytywać, zapisywać oraz kopiować dane z dyskietek C64 na nowoczesne systemy, przy użyciu narzędzi takich jak OpenCBM oraz dedykowanego programu, który współpracuje z OpenCBM.
+Dzięki temu użytkownicy będą mogli odczytywać, zapisywać oraz kopiować dane z dyskietek C64 na systemie LINUX/BSD, przy użyciu narzędzi takich jak OpenCBM oraz dedykowanego programu, który współpracuje z OpenCBM.
+Według strony oficjalnej OpenCBM ta stacja nie widnieje jakobyż miała funkcjonować dlatego też musiałem zrobić program który pomoże w jej uruchomieniu. ;-)
 
 ## Wymagania
 
