@@ -1,4 +1,4 @@
-# Projekt: Kopiowanie dyskietek C64 na systemie Linux
+# Projekt: Kopiowanie dyskietek C64 na systemie Linux OPenCBM + XUM1541
 
 ## Opis projektu
 
@@ -17,4 +17,43 @@ Dzięki temu użytkownicy będą mogli odczytywać, zapisywać oraz kopiować da
 - `libusb` (jeśli używasz urządzenia podłączonego przez USB)
 - `gcc` i inne narzędzia do kompilacji (w przypadku potrzeby kompilowania OpenCBM)
 - `Mój program` (dodatkowy program współpracujący z OpenCBM)
-- Ciąg dalszy w krótce ...
+
+## Instalacja
+
+### 1. Instalacja OpenCBM
+
+Aby zainstalować OpenCBM na systemie Linux, postępuj zgodnie z poniższymi krokami:
+
+#### a. Instalacja z repozytoriów systemowych (jeśli dostępne)
+
+Na systemach opartych na Debianie/Ubuntu:
+
+```bash
+sudo apt update
+sudo apt install opencbm
+
+Na systemach opartych na RedHat/Fedora:
+
+sudo dnf install opencbm
+
+b. Instalacja z kodu źródłowego
+
+Jeśli OpenCBM nie jest dostępny w repozytoriach, możesz pobrać kod źródłowy i zbudować go ręcznie:
+
+git clone https://github.com/Dirk-Matthies/OpenCBM.git
+cd OpenCBM
+make
+sudo make install
+
+2. Instalacja Twojego programu
+
+Pobierz i skompiluj Twój program, który współpracuje z OpenCBM. W zależności od tego, jak dostarczasz program, mogą być różne metody instalacji.
+
+Przykładowa instalacja:
+
+git clone https://github.com/TwójRepozytorium/twoj-program.git
+cd twoj-program
+make
+sudo make install
+
+3. Niedługo cała reszta pozdrawiam bofh@retro cdn ...
