@@ -1,3 +1,4 @@
+![Logo](logo.jpg)
 # Projekt: Kopiowanie dyskietek C64 na systemie Linux OPenCBM + XUM1541
 
 ## Opis projektu
